@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.cateories_area{
+    width: 100%;
+    height: 100bh;
+    margin-top: 10px;
+    background-color: green;
+}
+.first_area, .second_area, .third_area{
+    width: 150px;
+    height: 190px;
+    //background-color: black;
+    border-radius: 5px;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border:1px solid rgb(179, 179, 179);
+}
+.first_area:hover, .second_area:hover, .third_area:hover{
+    border:1px solid black;
+}
+.first_area img, .second_area img, .third_area img{
+    height: 100%;
+    width: 100%;
+}
+.third_area img{
+    margin-left: -1.5px;
+    width: 101%;
+}
+
+.go_back{
+    position: fixed;
+    bottom: 0;
+    right: -0;
+    background-color: black;
+}
+.go_back a{
+    text-decoration: none;
+    color: white;
+}
